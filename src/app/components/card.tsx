@@ -20,13 +20,14 @@ export default function Card() {
                 />
                 <p className="text-gray-800 text-center mt-5 font-semibold">Description:</p>
                 <div className="text-gray text-center mt-5">
-                    <ul className="list-disc pl-5 mx-auto text-left">
-                        <li><strong>Exquisite Scent 🌹</strong></li>
-                        <li><strong>Long-Lasting 🌟</strong></li>
-                        <li><strong>Premium Ingredients 💎</strong></li>
-                        <li><strong>Perfect Gift 🎁</strong></li>
-                    </ul>
-                </div>
+    <ul className="list-disc sm:list-outside list-inside sm:pl-5 pl-3 mx-auto text-left sm:text-base text-sm md:text-lg lg:text-xl">
+        <li className="mb-2"><strong>Exquisite Scent 🌹</strong></li>
+        <li className="mb-2"><strong>Long-Lasting 🌟</strong></li>
+        <li className="mb-2"><strong>Premium Ingredients 💎</strong></li>
+        <li className="mb-2" ><strong>Perfect Gift 🎁</strong></li>
+    </ul>
+</div>
+
                 <p className="text-gray-800 text-center mt-5 font-semibold border border-gray-400 px-4 py-2">
                     Price: 2000Rs
                 </p>
@@ -50,12 +51,13 @@ export default function Card() {
                 />
                 <p className="text-gray-800 text-center mt-5 font-semibold">Description:</p>
                 <div className="text-gray text-center mt-5">
-                    <ul className="list-disc pl-5 mx-auto text-left">
-                        <li><strong>Instant Freshness ✨</strong></li>
-                        <li><strong>Irresistible Fragrances 🌿</strong></li>
-                        <li><strong>Easy to Use 👍</strong></li>
-                    </ul>
-                </div>
+    <ul className="list-disc sm:list-outside list-inside sm:pl-5 pl-3 mx-auto text-left sm:text-base text-sm md:text-lg lg:text-xl">
+        <li className="mb-2"><strong>Instant Freshness ✨</strong></li>
+        <li className="mb-2"><strong>Irresistible Fragrances 🌿</strong></li>
+        <li className="mb-2"><strong>Easy to Use 👍</strong></li>
+    </ul>
+</div>
+
                 <p className="text-gray-800 text-center mt-5 font-semibold border border-gray-400 px-4 py-2">
                     Price: 2000Rs
                 </p>
@@ -79,12 +81,13 @@ export default function Card() {
                 />
                 <p className="text-gray-800 text-center mt-5 font-semibold">Description:</p>
                 <div className="text-gray text-center mt-5">
-                    <ul className="list-disc pl-5 mx-auto text-left">
-                        <li><strong>Instant Freshness ✨</strong></li>
-                        <li><strong>Captivating Fragrances 🌺</strong></li>
-                        <li><strong>Easy to Use 👍</strong></li>
-                    </ul>
-                </div>
+    <ul className="list-disc sm:list-outside list-inside pl-4 sm:pl-6 md:pl-8 mx-auto text-left sm:text-base text-sm md:text-lg lg:text-xl">
+        <li className="mb-2"><strong>Instant Freshness ✨</strong></li>
+        <li className="mb-2"><strong>Captivating Fragrances 🌺</strong></li>
+        <li className="mb-2" ><strong>Easy to Use 👍</strong></li>
+    </ul>
+</div>
+
                 <p className="text-gray-800 text-center mt-5 font-semibold border border-gray-400 px-4 py-2">
                     Price: 2000Rs
                 </p>
